@@ -1,7 +1,7 @@
 # IntelliNode Medical Use Cases
 
 
-IntelliNode is an open-source library for orchestrating multi-agent AI workflows using graph-based architectures. This repository contains educational examples demonstrating how multi-agent systems can be applied to healthcare and wellness scenarios.
+IntelliNode is an open-source library for orchestrating AI workflows using graph-based architectures. This repository contains educational examples demonstrating how multi-agent systems can be applied to healthcare and wellness scenarios.
 
 
 ## Install Intellinode
