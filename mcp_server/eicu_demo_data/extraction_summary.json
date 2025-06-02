@@ -1,0 +1,22 @@
+{
+  "patient_ids": [
+    935285,
+    349887,
+    1730330,
+    1591672,
+    1555349,
+    976513,
+    702695,
+    552515,
+    2834225,
+    224053
+  ],
+  "patient_count": 10,
+  "files_extracted": [
+    "patient.csv",
+    "lab.csv",
+    "vitalPeriodic.csv",
+    "apachePatientResult.csv",
+    "apacheApsVar.csv"
+  ]
+}
