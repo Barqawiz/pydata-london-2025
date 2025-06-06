@@ -58,5 +58,5 @@ These examples are for educational and demonstration purposes only.
 
 
 ## Lab Contribution
-The use case and examples in this repository were provided by MedWrite.ai
+The use case and examples in this repository were provided by [MedWrite.ai](https://medwrite.ai/).
 
