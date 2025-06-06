@@ -55,7 +55,6 @@ python eicu_mcp_server_polars.py
 These examples are for educational and demonstration purposes only.
 
 - NOT intended for real patient care or medical decision-making.
-- All patient cases and scenarios are fictional.
 
 
 ## Lab Contribution
