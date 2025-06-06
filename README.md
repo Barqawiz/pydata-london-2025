@@ -23,6 +23,19 @@ OPENAI_API_KEY=your_openai_api_key_here
 ANTHROPIC_API_KEY=your_anthropic_api_key_here
 ```
 
+## Lab Overview
+
+### Lab 1: Nutrition Assessment with IntelliNode
+- OpenAI GPT-4 analyzes client notes, Anthropic Claude creates meal plans
+- Demonstrates connecting multiple AI providers in healthcare workflows
+
+### Lab 2: Multiple Models with IntelliNode  
+- Showcases text, image, and speech generation in one system.
+
+### Lab 3: MCP Medical Prediction with Graph
+- Medical prediction system using Model Context Protocol (MCP)
+- MCP server serves patient data, agents predict mortality outcomes.
+
 ## ⚠️ Important Disclaimer
 
 These examples are for educational and demonstration purposes only.
