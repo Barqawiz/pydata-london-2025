@@ -36,6 +36,10 @@ def load_complete_patient_data():
     apache_df = pd.read_csv(data_dir / files["apache_result"])
     apache_vars_df = pd.read_csv(data_dir / files["apache_vars"])
 
+    # Remove duplicates from Apache data to prevent duplicate rows after merge
+    apache_df = apache_df.drop_duplicates(subset=["patientunitstayid"])
+    apache_vars_df = apache_vars_df.drop_duplicates(subset=["patientunitstayid"])
+
     # Merge core data
     merged_df = patient_df.merge(apache_df, on="patientunitstayid", how="left")
     merged_df = merged_df.merge(apache_vars_df, on="patientunitstayid", how="left")

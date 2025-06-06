@@ -36,6 +36,10 @@ def load_complete_patient_data():
     apache_df = pl.read_csv(data_dir / files["apache_result"])
     apache_vars_df = pl.read_csv(data_dir / files["apache_vars"])
 
+    # Remove duplicates from Apache data to prevent duplicate rows after merge
+    apache_df = apache_df.unique(subset=["patientunitstayid"])
+    apache_vars_df = apache_vars_df.unique(subset=["patientunitstayid"])
+
     # Merge core data using Polars joins
     merged_df = patient_df.join(apache_df, on="patientunitstayid", how="left")
     merged_df = merged_df.join(apache_vars_df, on="patientunitstayid", how="left")
@@ -134,12 +138,12 @@ def main():
         sys.exit(1)
 
     print(f"\nMCP Server ready with {server.df.height} patients")
-    print("Server URL: http://localhost:8001/mcp")
+    print("Server URL: http://localhost:8000/mcp")
     print("Operations: filter_rows (by patient ID), get_schema, get_head")
     print("------")
     print("\nExample client usage:")
     print("  model_params = {")
-    print("    'url': 'http://localhost:8001/mcp',")
+    print("    'url': 'http://localhost:8000/mcp',")
     print("    'tool': 'filter_rows',")
     print("    'arg_column': 'patientunitstayid',")
     print("    'arg_operator': '==',")
@@ -147,7 +151,7 @@ def main():
     print("  }")
 
     server.run(
-        transport="streamable-http", mount_path="/mcp", host="0.0.0.0", port=8001
+        transport="streamable-http", mount_path="/mcp", host="0.0.0.0", port=8000
     )
 
 
