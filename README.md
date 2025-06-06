@@ -43,6 +43,13 @@ ANTHROPIC_API_KEY=your_anthropic_api_key_here
 
 <img src="output/mcp_medical_flow.png" alt="MCP Medical Prediction Flow" height="450">
 
+## MCP Server
+To run the MCP server that serves CSV files using Polars:
+```shell
+cd mcp_server
+python eicu_mcp_server_polars.py
+```
+
 ## ⚠️ Important Disclaimer
 
 These examples are for educational and demonstration purposes only.
