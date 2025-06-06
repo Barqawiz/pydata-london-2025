@@ -46,6 +46,7 @@ ANTHROPIC_API_KEY=your_anthropic_api_key_here
 ## MCP Server
 To run the MCP server that serves CSV files using Polars:
 ```shell
+pip install -r requirements.txt
 cd mcp_server
 python eicu_mcp_server_polars.py
 ```
