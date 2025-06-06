@@ -29,13 +29,19 @@ ANTHROPIC_API_KEY=your_anthropic_api_key_here
 - OpenAI GPT-4 analyzes client notes, Anthropic Claude creates meal plans
 - Demonstrates connecting multiple AI providers in healthcare workflows
 
+<img src="output/nutrition_flow.png" alt="Nutrition Assessment Flow" style="max-height: 500px;">
+
 ### Lab 2: Multiple Models with IntelliNode  
 - Showcases text, image, and speech generation in one system.
+
+<img src="output/multi_model_flow.png" alt="Multiple Models Flow" style="max-height: 500px;">
 
 ### Lab 3: MCP Medical Prediction with Graph
 - Medical prediction system using Model Context Protocol (MCP).
 - MCP server serves CSV files using Polars backend.
 - Agents predict outcomes from clinical data.
+
+<img src="output/mcp_medical_flow.png" alt="MCP Medical Prediction Flow" style="max-height: 500px;">
 
 ## ⚠️ Important Disclaimer
 
