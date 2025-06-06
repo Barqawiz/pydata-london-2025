@@ -14,6 +14,15 @@ pip install intelli
 pip install "intelli[mcp]"
 ```
 
+## Environment Setup
+
+To create a `.env` file in the project root with these keys:
+
+```
+OPENAI_API_KEY=your_openai_api_key_here
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
+```
+
 ## ⚠️ Important Disclaimer
 
 These examples are for educational and demonstration purposes only.
