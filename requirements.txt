@@ -1,0 +1,10 @@
+# Core dependencies for MCP
+# Pin NumPy to 1.x to avoid compatibility issues with pandas and other packages
+numpy>=1.24.0,<2.0.0
+
+# Data processing
+pandas>=1.5.0
+polars>=0.20.0
+
+# IntelliNode with MCP support
+intelli[mcp]>=1.1.6
