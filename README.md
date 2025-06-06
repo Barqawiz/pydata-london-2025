@@ -33,8 +33,9 @@ ANTHROPIC_API_KEY=your_anthropic_api_key_here
 - Showcases text, image, and speech generation in one system.
 
 ### Lab 3: MCP Medical Prediction with Graph
-- Medical prediction system using Model Context Protocol (MCP)
-- MCP server serves patient data, agents predict mortality outcomes.
+- Medical prediction system using Model Context Protocol (MCP).
+- MCP server serves CSV files using Polars backend.
+- Agents predict outcomes from clinical data.
 
 ## ⚠️ Important Disclaimer
 
