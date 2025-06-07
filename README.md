@@ -23,6 +23,31 @@ OPENAI_API_KEY=your_openai_api_key_here
 ANTHROPIC_API_KEY=your_anthropic_api_key_here
 ```
 
+Install project dependencies:
+```
+pip install -r requirements.txt
+```
+
+Launch Jupyter:
+```
+jupyter lab
+```
+
+
+## MCP Server
+To run the MCP server that serves CSV files using Polars:
+```shell
+pip install -r requirements.txt
+cd mcp_server
+# polars data provider
+python eicu_mcp_server_polars.py
+```
+
+(Alternative) Start the server using the Pandas as data provider:
+```shell
+python eicu_mcp_server.py
+```
+
 ## Lab Overview
 
 ### Lab 1: Nutrition Assessment with IntelliNode
@@ -42,14 +67,6 @@ ANTHROPIC_API_KEY=your_anthropic_api_key_here
 - Agents predict outcomes from clinical data.
 
 <img src="output/mcp_medical_flow.png" alt="MCP Medical Prediction Flow" height="450">
-
-## MCP Server
-To run the MCP server that serves CSV files using Polars:
-```shell
-pip install -r requirements.txt
-cd mcp_server
-python eicu_mcp_server_polars.py
-```
 
 ## ⚠️ Important Disclaimer
 
