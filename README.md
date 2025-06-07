@@ -68,6 +68,12 @@ python eicu_mcp_server.py
 
 <img src="output/mcp_medical_flow.png" alt="MCP Medical Prediction Flow" height="480">
 
+## Slides
+
+PyData - Graph Theory for Multi-Agent Integration
+https://www.slideshare.net/slideshow/pydata-graph-theory-for-multi-agent-integration/280302074
+
+
 ## ⚠️ Important Disclaimer
 
 These examples are provided for educational purposes only, and are not intended for actual patient care as presented.
