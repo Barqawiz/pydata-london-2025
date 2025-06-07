@@ -70,9 +70,9 @@ python eicu_mcp_server.py
 
 ## ⚠️ Important Disclaimer
 
-These examples are for educational and demonstration purposes only.
+These examples are provided for educational purposes only, and are not intended for actual patient care as presented.
 
-- NOT intended for real patient care or medical decision-making.
+For production deployments, you must implement logging, secure clinical approvals, and establish appropriate governance around the workflow.
 
 
 ## Lab Contribution
