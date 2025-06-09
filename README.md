@@ -54,19 +54,19 @@ python eicu_mcp_server.py
 - OpenAI GPT-4 analyzes client notes, Anthropic Claude creates meal plans.
 - Demonstrates connecting multiple AI providers in healthcare workflows.
 
-<img src="output/nutrition_flow.png" alt="Nutrition Assessment Flow" height="480">
+<img src="output/nutrition_flow.png" alt="Nutrition Assessment Flow"  width="480em">
 
 ### Lab 2: Multiple Models with IntelliNode  
 - Showcases text, image, and speech generation in one system.
 
-<img src="output/multi_model_flow.png" alt="Multiple Models Flow" height="480">
+<img src="output/multi_model_flow.png" alt="Multiple Models Flow"  width="480em">
 
 ### Lab 3: MCP Medical Prediction with Graph
 - Medical prediction system using Model Context Protocol (MCP).
 - MCP server serves CSV files using Polars backend.
 - Agents predict outcomes from clinical data.
 
-<img src="output/mcp_medical_flow.png" alt="MCP Medical Prediction Flow" height="480">
+<img src="output/mcp_medical_flow.png" alt="MCP Medical Prediction Flow"  width="480em">
 
 ## Slides
 
